@@ -51,7 +51,7 @@ font-style: normal; }
 .say50L, .say50R,
 .say100L, .say100R {
     display: inline;
-    *margin-left:-0.04em; /* IE margin hack */
+    *margin-left: -0.04em; /* Internet Explorer margin hackalishious */
 }
 
 .say20L,
@@ -73,17 +73,17 @@ font-style: normal; }
 }
 
 .say20L,
-.say20R {width:20%;}
+.say20R {width: 20%;}
 .say25L,
-.say25R {width:25%;}
+.say25R {width: 25%;}
 .say33L,
-.say33R {width:33.3333%;}
+.say33R {width: 33.3333%;}
 .say50L,
-.say50R {width:50%;}
+.say50R {width: 50%;}
 .say66L,
-.say66R {width:66.6666%;}
+.say66R {width: 66.6666%;}
 .say100L,
-.say100R {width:100%;}
+.say100R {width: 100%;}
 
 .clear{
     clear: both;
@@ -102,7 +102,7 @@ font-style: normal; }
 
 div#wrapper {
 	margin: 0 auto;
-	width: 960px; /*  Change to desired width :)  */
+	width: 960px; /*  Change to desired pixel width :)  */
 }
 
 header {
