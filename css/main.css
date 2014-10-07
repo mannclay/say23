@@ -50,8 +50,7 @@ font-style: normal; }
 .say33L, .say33R,
 .say50L, .say50R,
 .say100L, .say100R {
-    display: inline;
-    *margin-left: -0.04em; /* Internet Explorer margin hackalishious */
+    display: inline-block;
 }
 
 .say20L,
