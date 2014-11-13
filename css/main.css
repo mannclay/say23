@@ -96,6 +96,13 @@ font-style: normal; }
     visibility: hidden;
 }
 
+/* inspired by Nicolas Gallagher - added to container node */
+.clearfix:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
 /* Layouts
 ================================================== */
 
